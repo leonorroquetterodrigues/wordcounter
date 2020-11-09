@@ -8,6 +8,7 @@ nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('nps_chat')
 nltk.download('universal_tagset')
+nltk.download('averaged_perceptron_tagger')
 #from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem import WordNetLemmatizer
 #nltk.download('nps_chat')
