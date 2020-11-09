@@ -19,6 +19,6 @@ import pytest
 #     assert out.shape == (985, 119)
 
 def test_part_of_speech():
-   # X = part_of_speech('sentence')
-    # assert isinstance(X,pd.DataFrame)
-    assert 1==1
+    X = part_of_speech('sentence')
+    assert isinstance(X,pd.DataFrame)
+    # assert 1==1

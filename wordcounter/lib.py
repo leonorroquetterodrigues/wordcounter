@@ -3,6 +3,10 @@
 """ Main lib for wordcounter Project
 """
 import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt')
+import nltk
 #from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem import WordNetLemmatizer
 #nltk.download('nps_chat')
